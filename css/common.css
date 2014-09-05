@@ -1,13 +1,11 @@
-body{
-    padding:0 5px;
-}
+
 .photo-round{
     border-radius: 50%;
     border:2px solid #ffffff;
 }
 .small-photo{
-    width:80px;
-    height:80px;
+    width:40px;
+    height:40px;
     overflow: hidden;
     display:inline-block;
 }

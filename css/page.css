@@ -1,26 +1,50 @@
 .menu-header{
     border-bottom: 2px solid #cccccc;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .menu-customerName{
-    margin-left: 30px;
+    margin-left: 10px;
     display: inline-block;
-    line-height: 80px;
+    line-height: 40px;
     vertical-align: top;
 }
 body.menu-body{
     background:black;
     color:#c9c9c9;
-    font-size: 40px;
+    font-size: 16px;
+    padding:0 5px;
 }
 .menu-list{
-    margin: 150px 0 0 160px;
+    margin: 60px 0 0 40px;
 }
 .menu-list li{
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 
 }
 .menu-list li a{
     color:#c9c9c9;
-    font-size: 56px;
+    font-size: 1rem;
+}
+
+/*index*/
+.index-sec1{
+}
+.index-sec1-imgContainer,.index-sec2-imgContainer{
+    position: relative;
+    font-size: 0;
+    margin-bottom: 1px;
+}
+.index-sec1-imgContainer img,.index-sec2-imgContainer img{
+    width:100%
+}
+.index-sec2-imgContainer-desc{
+    height: 60px;
+    padding:10px;
+    color:#333333;
+    position: relative;
+}
+.customerPhoto{
+    position: absolute;
+    right: 30px;
+    top:-20px;
 }
