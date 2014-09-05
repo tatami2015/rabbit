@@ -1,0 +1,26 @@
+.menu-header{
+    border-bottom: 2px solid #cccccc;
+    padding: 20px 0;
+}
+.menu-customerName{
+    margin-left: 30px;
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: top;
+}
+body.menu-body{
+    background:black;
+    color:#c9c9c9;
+    font-size: 40px;
+}
+.menu-list{
+    margin: 150px 0 0 160px;
+}
+.menu-list li{
+    margin-bottom: 80px;
+
+}
+.menu-list li a{
+    color:#c9c9c9;
+    font-size: 56px;
+}
