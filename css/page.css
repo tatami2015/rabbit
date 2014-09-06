@@ -126,7 +126,6 @@ body.menu-body{
     line-height: 1.2;
 }
 .storeInfoContainer{
-    padding:0 10px;
     display: none;
 }
 .storeInfoButton{
@@ -159,9 +158,10 @@ body.menu-body{
 }
 .commentContainer-header{
     margin-bottom: 10px;
+    clear: both;
 }
 .commentUser li{
-    margin-right: 5px;
+    margin: 0 5px 5px 0;
     float: left;
 }
 .detail-footer{
