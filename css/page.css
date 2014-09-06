@@ -27,7 +27,8 @@ body.menu-body{
 }
 
 /*index*/
-.index-sec1{
+.index-sec1,.detail-sec1{
+    margin-top: 50px;
 }
 .index-sec1-imgContainer,.index-sec2-imgContainer{
     position: relative;
@@ -37,14 +38,134 @@ body.menu-body{
 .index-sec1-imgContainer img,.index-sec2-imgContainer img{
     width:100%
 }
+.index-sec1-imgContainer-desc{
+    font-size: 32px;
+    color:#ffffff;
+    text-align: center;
+    height: 80px;
+    margin:auto;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+}
+.index-sec1-imgContainer-subDesc{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: normal;
+}
 .index-sec2-imgContainer-desc{
     height: 60px;
     padding:10px;
     color:#333333;
     position: relative;
+    font-size:14px;
+    line-height: 1.5;
 }
 .customerPhoto{
     position: absolute;
-    right: 30px;
+    right: 10px;
     top:-20px;
+}
+.priceContainer{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    color: #dddddd;
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    line-height: 35px;
+    padding:0 5px;
+}
+.index-header,.detail-header,.detail-footer{
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    color: #333333;
+    line-height: 50px;
+    width: 100%;
+    background: #ffffff;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+/*detail*/
+.detail-header{
+    text-align: left;
+    text-indent: 10px;
+}
+.detail-sec1{
+    padding:0 10px;
+    margin-bottom: 55px;
+}
+.source{
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+.source .area{
+    float:right;
+}
+.contentImgs{
+    width:246px;
+    margin:0 auto;
+}
+.contentImgs li{
+    margin:0 2px 2px 0;
+    float: left;
+    font-size: 0;
+}
+.contentIntroduction{
+    padding-top: 10px;
+    clear: both;
+    line-height: 1.2;
+}
+.storeInfoContainer{
+    padding:0 10px;
+    display: none;
+}
+.storeInfoButton{
+    width:90px;
+    height:90px;
+    border-radius: 45px;
+    line-height: 90px;
+    text-align: center;
+    border:2px solid #cccccc;
+    margin:20px auto;
+    cursor: pointer;
+}
+.importantTag{
+    background: #333333;
+    border:1px solid #000000;
+    color:#cccccc;
+    font-size: 12px;
+    padding:5px;
+    display: inline-block;
+}
+.collectionContainer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.collectionNum{
+    position: relative;
+    top: -30px;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.commentContainer-header{
+    margin-bottom: 10px;
+}
+.commentUser li{
+    margin-right: 5px;
+    float: left;
+}
+.detail-footer{
+    top:auto;
+    bottom: 0;
+    border:1px solid #cccccc;
 }

@@ -1,4 +1,6 @@
-
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,sans-serif !important;
+}
 .photo-round{
     border-radius: 50%;
     border:2px solid #ffffff;
@@ -8,4 +10,37 @@
     height:40px;
     overflow: hidden;
     display:inline-block;
+}
+sup{
+    position: relative;
+    top: -6px;
+    font-size: 12px;
+    text-rendering: optimizeLegibility;
+}
+.menuButton{
+    background: url("../images/icons1.png") -247px -242px no-repeat;
+    width: 32px;
+    height: 27px;
+    display: inline-block;
+    float: left;
+    margin: 11px 0 0 5px;
+}
+.searchButton{
+    background: url("../images/icons1.png") -127px -477px no-repeat;
+    width: 33px;
+    height: 34px;
+    display: inline-block;
+    float: right;
+    margin: 8px 5px 0 0;
+}
+.noticeButto{
+    background: url("../images/icons1.png") -6px -299px no-repeat;
+    width: 33px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin: 8px 5px 0 0;
+}
+.tbl_common td{
+    padding:5px 0;
 }
