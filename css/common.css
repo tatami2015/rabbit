@@ -11,6 +11,12 @@ body{
     overflow: hidden;
     display:inline-block;
 }
+.smaller-photo{
+    width:32px;
+    height:32px;
+    overflow: hidden;
+    display:inline-block;
+}
 sup{
     position: relative;
     top: -6px;
@@ -43,4 +49,7 @@ sup{
 }
 .tbl_common td{
     padding:5px 0;
+}
+.clearfix{
+    clear: both;
 }

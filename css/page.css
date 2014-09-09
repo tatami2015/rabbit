@@ -93,6 +93,7 @@ body.menu-body{
     top: 0;
     left: 0;
     font-size: 20px;
+    border-bottom: 1px solid #cccccc;
 }
 
 /*detail*/
@@ -168,4 +169,137 @@ body.menu-body{
     top:auto;
     bottom: 0;
     border:1px solid #cccccc;
+}
+
+/*requirement*/
+.ipt_req{
+    width:80px;
+    border:0;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*inbox*/
+.messagesList{
+    margin-top: 10px;
+}
+.messagesList>li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+    padding:10px 5px;
+    position: relative;
+}
+.messagesList .userPic{
+    float: left;
+}
+.messagesList ol{
+    margin-left: 80px;
+    list-style: none;
+}
+.messagesList ol li{
+    margin-bottom: 3px;
+    color:#999999;
+}
+.messagesList .userName{
+    font-weight: bold;
+}
+.messagesList .messageSearch a{
+    color: #eebf09;
+}
+.messagesList .send_timeSpan{
+    position: absolute;
+    top:10px;
+    right: 5px;
+    color:#cccccc;
+    font-size: 12px;
+}
+
+/*req*/
+.req_nav{
+    height: 40px;
+    background: #666666;
+    margin-top: 51px;
+    padding: 15px 10px;
+    width: 300px;
+    position: relative;
+    color:#cccccc;
+}
+.navIcon{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.navIcon li{
+    float: left;
+    margin-right: 10px;
+}
+.navIcon_button{
+    background: url("../images/icons2.png");
+    width:46px;
+    height:46px;
+    border-radius: 23px;
+    border:2px solid #cccccc;
+}
+.req_confirm{
+    background-position: -433px -380px;
+}
+.daren{
+    background-position: -42px -211px;
+}
+.consultation{
+    background-position: -98px -770px;
+}
+.navIcon_button.current{
+    background-color:#ffffff;
+    background-image: url("../images/icons3.png");
+}
+.message_u1 .message_content1{
+    width:70%;
+    border-bottom:1px solid #172d31;
+    padding: 10px;
+    border-radius: 10px;
+    background: #cccccc;
+    float: right;
+    margin-right: 5px;
+}
+.message_u1 .message_touxiang{
+    float: right;
+}
+.message_u2 .message_content1{
+    width:70%;
+    /*border-bottom:1px solid #172d31;*/
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    float: left;
+    margin-left: 5px;
+}
+.message_u2 .message_touxiang{
+    float: left;
+}
+.consultation-sec1{
+    background: #f4f4f4;
+    top: 120px;
+    bottom: 50px;
+    left:0;
+    position: absolute;
+    width:100%;
+}
+.consultation-sec1 li{
+    margin-bottom: 15px;
+}
+.consultationMessageList{
+    margin:15px 10px;
+}
+.send_timeSpan{
+    font-size: 12px;
+    color:#6d6d6d;
+    margin-top: 10px;
+    display: block;
+}
+.ipt_message{
+    height: 90%;
+    width:80%;
+    border: 0;
+    font-size:18px;
+    outline: none;
 }
